@@ -1,0 +1,12 @@
+class BankDriver 
+{
+	public static void main(String[] args) 
+	{
+		CurrentAccount niraj=new CurrentAccount("Niraj",7250321190l,"Current Account","SBI10009","SBI");
+       SavingAccount suraj=new SavingAccount("suraj",8708251313l,"SavingAccount","SBI10009","SBI");
+		niraj.deposite(5000);
+		suraj.deposite(50000);
+		niraj.detailsofAccount();
+		suraj.detailsofAccount();
+	}
+}
