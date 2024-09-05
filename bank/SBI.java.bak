@@ -1,0 +1,6 @@
+class SBI
+{
+	public int getRateOfIntrest(){
+		return 7;
+	}
+}

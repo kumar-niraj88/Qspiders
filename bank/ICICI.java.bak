@@ -1,0 +1,6 @@
+class ICICI
+{
+	public int getRateOfIntrest(){
+		return 10;
+	}
+}
